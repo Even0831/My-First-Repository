@@ -29,9 +29,9 @@ function dectoBinary(number) {
         b = dcimal % 2;
         c = parseInt( dcimal / 2);
         dcimal = c
-        arr.push(b);  // arr是一個未被處理的陣列，也就是是反的，因為每次結果都被放到最後面導致 1011 變成 1101
+        arr.push(b);  
     }
-    return arr.reverse().join("").toString(); // return 這邊用reverve反轉陣列，並且利用join方法在每個陣列元素中插入 "" 字串 並且轉換回字串回傳
+    return arr.reverse().join("").toString(); 
 } 
 
 
